@@ -1,0 +1,507 @@
+@media screen and (max-width: 1330px) {
+	
+}
+
+@media screen and (max-width: 1292px){
+
+}
+
+@media screen and (max-width: 1199px) {
+	.navbar-main nav ul li a {
+	    padding: 0px 35px;
+	    font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1183px) {
+	.logo {
+		max-width: 240px;
+		height: 135px;
+	}
+	.checkout-main {
+		flex-wrap: wrap;
+	}
+	.checkout-main-left-block {
+		max-width: 100%;
+		padding-right: 0px;
+	}
+	.checkout-main-right-block {
+	    margin: 50px auto;
+	}
+}
+
+@media screen and (max-width: 1070px){
+	.card-product-header-img {
+		max-width: 465px;
+	}
+}
+
+@media screen and (max-width: 1124px) {
+	.right-block-content > div {
+		margin: 0px 5px;
+	}
+}
+
+@media screen and (max-width: 1085px) {
+	.navbar-main nav ul li a {
+	    padding: 0px 30px;
+	    font-size: 14px;
+	}
+	.logo-and-info-contact {
+		flex-direction: column;
+		height: auto;
+		overflow: auto;
+	}
+	.right-block-content {
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-bottom: 15px;
+		flex-wrap: wrap;
+	}
+	.logo {
+		margin-bottom: 40px;
+	}
+	.right-block-content > div {
+		margin: 0px 10px;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.shop-card {
+		min-width: 320px;
+		font-size: 13px;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.top-navbar {
+		position: relative;
+	}
+	.navbar-main {
+		left: 0px;
+		position: absolute;
+		z-index: 111111;
+		width: 100%;
+		background: #fff;
+		height: 0px;
+		overflow: hidden;
+		transition: all 0.5s;
+		opacity: 0;
+	}
+    .anim-menu {
+        transform: translateX(0%) !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+	.navbar-main ul {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.navbar-main>nav>ul>li {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #dadada;
+		transform: translateX(-30%);
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+	}
+	.navbar-main>nav>ul>li>a::before {
+		content: "";
+	}
+	.mobile-navbar-open-button {
+		display: flex;
+	}
+	.pod-navbar {
+		position: relative;
+	}
+	.left-block {
+		display: none;
+	}
+	.content-main {
+		padding-left: 0px;
+	}
+	.main-content-top-slider{
+		max-width: 100%;
+	}
+	.mobile-top-scrol-button {
+		display: flex;
+	}
+	.card-product-header {
+		flex-wrap: wrap;
+	}
+	.card-product-header {
+		justify-content: center;
+	}
+	.card-product-header-calculet {
+		max-width: 420px;
+	}
+	.left-block {
+		width: 0%;
+		height: auto;
+		display: block;
+		overflow: hidden;
+		z-index: 11111;
+	}
+	.navbar-content-block-position {
+		position: fixed;
+	    top: 0px;
+	    left: 0px;
+	    width: 0%;
+	    z-index: 11111;
+	    overflow: hidden;
+	    height: 100%;
+	    transition: all 0.3s;
+	    opacity: 0;
+	}
+	.navbar-content-block {
+		overflow: auto;
+	}
+	.close-mobile-cataloc {
+		display: block;
+	}
+	.left-nav-list-main {
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        min-width: 320px;
+	}
+	.catalog-product-this-open a {
+		pointer-events: none;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.card-product-header-calculet {
+		max-width: 465px;
+	}
+	.card-product-header-img {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 872px) {
+	.card-product-header-img {
+		margin-right: 0px;
+		width: 100%;
+	    height: auto;
+	    background: none;
+	}
+	.card-product-header-img img {
+		position: relative;
+	    width: 100%;
+	    height: 100%;
+	}
+}
+
+@media screen and (max-width: 883px) {
+	.delivery-from-stock {
+		margin-top: 20px !important;
+	}
+	.header-info-title {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.checkout-contact-details-content-input-list {
+		
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.block-login-and-registration {
+		height: auto;
+	}
+	.header-info-title {
+		display: none;
+	}
+	.login-and-registration {
+		flex-direction: column;
+		height: auto;
+		width: 100%;
+	}
+	.button-login-and-registration-main {
+		justify-content: center;
+	}
+	.shop-card-main {
+		display: flex;
+	    justify-content: center;
+	}
+	.class-d-none-mobile {
+		display: none;
+	}
+	.class-d-block-mobile {
+		display: flex;
+	}
+	.viber-contact {
+		margin-right: 10px;
+	}
+	.shop-card {
+		margin-left: -15px;
+	}
+	.header-see-all-contacts {
+		display: block;
+	}
+
+	.footer  .viber-and-whatsapp ,
+	.footer  .right-block-content {
+		display: none;
+	}
+	.our-advantages-list-content {
+		max-width: 280px;
+		width: 100%;
+		justify-content: center;
+		overflow: hidden;
+	}
+	.our-advantages-list-main {
+		padding: 0px 20px;
+	}
+	.our-advantages .slick-prev:before {
+		content: url(../img/icon/moblie-slider-prev.png);
+		z-index: 11111;
+	}
+	.our-advantages .slick-next:before {
+		content: url(../img/icon/moblie-slider-next.png);
+		z-index: 11111;
+	}
+	.our-advantages .slick-prev , .slick-next {
+		z-index: 11111;
+		top: 50%;
+	}
+
+	.our-advantages .slick-prev {
+		left: 0px;
+	}
+	.our-advantages .slick-next {
+		right: 15px;
+	}
+	.our-advantages-list-main {
+		max-width: 280px;
+	}
+	.our-advantages-list {
+		margin: 0 auto;
+	}
+	.how-to-place-an-order {
+		flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.how-to-place-an-order-after {
+		width: 290px;
+		margin-right: 0px;
+	}
+	.how-to-place-an-order-after::after {
+	    content: url(../img/icon/order-next.png);
+	    position: absolute;
+	    top: 117%;
+	    left: 43%;
+	    transform: translateX(-50%);
+	    z-index: 11111;
+	    transform: rotate(90deg);
+	    height: 40px;
+	    width: 40px;
+	}
+	.main-popular-goods-title {
+		text-align: center;
+	}
+	.main-popular-goods-content-main {
+		width: 200px;
+	}
+	.pop-ap-content-main {
+		width: 200px;
+	}
+	.main-popular-goods-content  .slick-prev:before {
+		content: url(../img/icon/moblie-slider-prev.png);
+		z-index: 11111;
+	}
+	.main-popular-goods-content  .slick-next:before {
+		content: url(../img/icon/moblie-slider-next.png);
+		z-index: 11111;
+	}
+	.main-popular-goods-content  .slick-prev , .slick-next {
+		z-index: 11111;
+		top: 50%;
+	}
+	.main-popular-goods-content  .slick-prev {
+	    left: -40px;
+	}
+	.main-popular-goods-content .slick-next {
+		right: -25px;
+	}
+	.orders-are-processed-info-table {
+		max-width: 768px;
+		width: 100%;
+		overflow-x: auto;
+	}
+	.orders-are-processed-info-table-main {
+		width: 768px;
+	}
+	.rsponsive-wrap-mob {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.margin-right-filtr {
+		margin-bottom: 10px;
+	}
+	.spare-parts-filtr-the-page ,
+	.spare-parts-filtr-by-price ,
+	.spare-parts-filtr-rated ,
+	.spare-parts-filtr-by-manufacturer {
+		margin-bottom: 10px;
+	}
+	.full-catalog {
+		justify-content: center;
+	}
+	.full-catalog > .main-popular-goods-content-list {
+	    margin: 5px;
+	}
+	.checkout-button button {
+		margin-right: 0px;
+		margin-bottom: 10px;
+	}
+	.news-page-list-content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.news-page-list-info {
+		text-align: center;
+	}
+	.checkout-main-product {
+		overflow: hidden;
+    	overflow-x: scroll;
+	}
+	.checkout-main-product-title {
+		width: 800px;
+	}
+	.checkout-additional-packaging {
+		flex-direction: column;
+	}
+	.checkout-additional-packaging-checkbox-info {
+		text-align: center;
+	}
+	.use-promo-code-content {
+		flex-direction: column;
+	}
+	.place-an-order-and-yes-checkbox {
+		flex-direction: column;
+		align-items: center;
+	}
+	.place-an-order {
+		padding-top: 10px;
+	}
+	.checkout-contact-details-content-input-list {
+		max-width: 100%;
+		margin-right: 0px !important;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.main-content-top-slider , .main-content-top-slider-list {
+		height: 250px;
+	}
+	.main-content-top-slide-motorcycles , .main-content-top-slide-oils , .main-content-top-slide-batteries {
+		height: 50px;
+	}
+	.main-content-top-slide-motorcycles h2 , .main-content-top-slide-oils h2 , .main-content-top-slide-batteries h2 {
+		line-height: 50px;
+	}
+	.main-popular-goods-title h2 , .main-popular-goods-content-info-title h2 {
+		font-size: 18px;
+		text-align: center;
+	}
+	.what-can-be-improved-on-this-page-text a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 586px){
+	.contacts-main-block ul li:before {
+		top: 20px !important;
+	}
+	.spare-parts-filtr-by-manufacturer , .spare-parts-filtr-the-page {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 560px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
+}
+
+@media screen and (min-width: 768px){
+	.our-advantages-list-content {
+		width: 100%;
+	}
+	.main-popular-goods-content-main {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 495px){
+	.main-content-top-slider , .main-content-top-slider-list {
+		height: 200px;
+	}
+	.main-content-top-slide-motorcycles , .main-content-top-slide-oils , .main-content-top-slide-batteries {
+		height: 40px;
+	}
+	.main-content-top-slide-motorcycles h2 , .main-content-top-slide-oils h2 , .main-content-top-slide-batteries h2 {
+		line-height: 40px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.what-can-be-improved-on-this-page-text a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 390px){
+	.main-content-top-slider , .main-content-top-slider-list {
+		height: 160px;
+	}
+	.main-content-top-slide-motorcycles , .main-content-top-slide-oils , .main-content-top-slide-batteries {
+		max-width: 245px;
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.main-content-top-slide-motorcycles h2 , .main-content-top-slide-oils h2 , .main-content-top-slide-batteries h2 {
+		line-height: 40px;
+		padding-left: 25px;
+		font-size: 16px;
+	}
+	.mob-nav-title h2 {
+		font-size: 15px;
+	}
+	.mob-nav-title_product_catalog h2 {
+		font-size: 15px;
+		    font-family: "Arial";
+    color: rgb(45, 45, 45);
+    text-transform: uppercase;
+    line-height: 1.2;
+	}
+}
+
+@media screen and (max-width: 386px) {
+    .thank-you-for-the-order {
+    	padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .what-can-be-improved-on-this-page-text a {
+		font-size: 13px;
+	}
+}
